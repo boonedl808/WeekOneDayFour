@@ -14,8 +14,9 @@ $(document).keyup(function(e) {
      if (e.which === 16) {
     $('#keyboard-upper-container').hide();
     $('#keyboard-lower-container').show();
-    
-     };
+     }
+    else 
+    $('.key').removeClass('highlight');
      });
 });
 
